@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.count {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #0077ff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #0077ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #005ecc;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.message {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.goal {
+  color: green;
+  font-size: 24px;
+}
